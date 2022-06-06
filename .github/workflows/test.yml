@@ -33,4 +33,4 @@ jobs:
         run: nuget restore FahrenheitApp.sln
         
       - name: Build the solution
-        run: msbuild FahrenheitApp.sln
+        run: msbuild FahrenheitApp.sln 
